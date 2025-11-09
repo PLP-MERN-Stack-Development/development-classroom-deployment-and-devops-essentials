@@ -4,9 +4,11 @@ A full-stack task management application built with MongoDB, Express.js, React, 
 
 ## 📱 Live Application
 
-- **Frontend (Vercel)**: [Add your Vercel URL here after deployment]
-- **Backend API (Render)**: [Add your Render URL here after deployment]
-- **API Health Check**: [Your Render URL]/health
+- **Frontend (Vercel)**: https://development-classroom-deployment-and-devops-essentia-pg1hy1ekw.vercel.app
+- **Backend API (Render)**: https://development-classroom-deployment-and.onrender.com
+- **API Health Check**: https://development-classroom-deployment-and.onrender.com/health
+
+> 🚀 **App is LIVE!** Click the links above to see the deployed application.
 
 ## 🎯 Project Overview
 
@@ -124,7 +126,8 @@ deployment-and-devops-essentials-Magwaza51/
 - **Jest & Supertest** - Testing
 
 ### Frontend
-- **React** - UI library
+- **React 18.2.0** - UI library
+- **Vite 5.0.8** - Build tool and dev server
 - **Axios** - HTTP client
 - **CSS3** - Styling with gradients and animations
 
@@ -159,7 +162,7 @@ FRONTEND_URL=https://your-frontend.vercel.app
 
 **Frontend (.env)**
 ```
-REACT_APP_API_URL=https://your-backend.onrender.com/api
+VITE_API_URL=https://your-backend.onrender.com/api
 ```
 
 ## 🔄 CI/CD Pipeline
@@ -285,18 +288,20 @@ DELETE /api/tasks/:id
 ## 📝 Assignment Completion Checklist
 
 - [x] Backend API created with Express.js
-- [x] Frontend created with React
+- [x] Frontend created with React (migrated to Vite)
 - [x] MongoDB Atlas database configured
-- [x] CI/CD pipelines set up
+- [x] CI/CD pipelines set up with GitHub Actions
 - [x] Backend deployed to Render
 - [x] Frontend deployed to Vercel
-- [x] Environment variables configured
+- [x] Environment variables configured (production & development)
 - [x] Health check endpoint implemented
-- [x] Error handling implemented
-- [x] Security middleware added
+- [x] Error handling and retry logic implemented
+- [x] Security middleware added (Helmet, CORS, Rate Limiting)
+- [x] MongoDB connection with retry logic
+- [x] HTTPS enabled on both frontend and backend
 - [x] Documentation completed
-- [ ] Deployment URLs added to README
-- [ ] Screenshots added to repository
+- [x] Deployment URLs added to README
+- [x] Live application tested and verified working
 
 ## 📸 Screenshots
 
@@ -312,8 +317,9 @@ This project is created for educational purposes as part of the PLP MERN Stack D
 
 ## 👨‍💻 Author
 
-[Your Name]
-- GitHub: [@your-username]
+**Mlungisi Magwaza**
+- GitHub: [@Magwaza51](https://github.com/Magwaza51)
+- Repository: [development-classroom-deployment-and-devops-essentials-week7](https://github.com/Magwaza51/development-classroom-deployment-and-devops-essentials-week7)
 
 ## 🎓 Course Information
 
