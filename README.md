@@ -1,5 +1,7 @@
 # 🚀 MERN Stack Task Manager - Deployment & DevOps
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-success?style=for-the-badge&logo=vercel)](https://development-classroom-deployment-and-devops-essentia-pg1hy1ekw.vercel.app)
+
 A full-stack task management application built with MongoDB, Express.js, React, and Node.js, featuring automated CI/CD pipelines and cloud deployment.
 
 ## 📱 Live Application
